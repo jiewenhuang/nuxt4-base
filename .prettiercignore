@@ -1,0 +1,22 @@
+# 忽略 node_modules 目录
+node_modules
+
+# 忽略构建和生成的文件夹
+.nuxt
+.output
+dist
+public
+
+# 忽略环境配置文件
+.env
+.env.*
+
+# 忽略本地编辑器配置
+.vscode
+.idea
+
+# 忽略特定文件类型
+*.log
+*.lock
+*.md # 如果不希望 Prettier 格式化 Markdown 文件
+*.yml # 如果不希望 Prettier 格式化 YML 文件
